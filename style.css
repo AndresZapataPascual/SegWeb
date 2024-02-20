@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    height: 120px;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.encabezado img {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    padding-left: 40px;
+}
+
+.menu_nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 15px;
+    margin: 30 15px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link {
+    border-radius: 5px;
+    padding: 20px 14px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-menu-link:hover {
+    background-color: #2C3E50;
+    transition: 0.10s;
+}
+
+.buscador img {
+    height: 40px;
+    width: 40px;
+    margin: 40px;
+}
