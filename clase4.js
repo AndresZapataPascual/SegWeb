@@ -17,7 +17,6 @@ console.log(inicio);
 //quitar el primero elemento
 inicio = concat.shift();
 
-const.arregloUno = inicio;
 
 //produce error
 //arregloUno.push(1);
