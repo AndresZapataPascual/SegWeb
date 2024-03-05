@@ -30,3 +30,22 @@ const concatenar = (saludo, num, code) => {
 texto();
 Saludo2(nombre);
 concatenar(nombre,num1,codigo);
+
+
+//areglos usando funciones tipo flecha 
+
+const palabras = ["gato", "perro", "elefante", "oso", "leon", "tigre"];
+
+const palabrasMasDeCuatroLetras = palabras.filter(palabra => palabra.length > 4); // Filtrar palabras con más de 4 letras
+console.log("Palabras con más de cuatro letras:", palabrasMasDeCuatroLetras);
+
+const palabrasConcatenadas = palabrasMasDeCuatroLetras.reduce((concatenacion, palabra) => concatenacion + " " + palabra, ""); // Concatenar las palabras
+console.log("Palabras concatenadas:", palabrasConcatenadas);
+
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+const numerosPares = numeros.filter(num => num % 2 === 0); // Filtrar los números pares
+console.log("Números pares:", numerosPares);
+
+const sumaNumerosPares = numerosPares.reduce((total, num) => total + num, 0); // Sumar los números pares
+console.log("Suma de los números pares:", sumaNumerosPares);
